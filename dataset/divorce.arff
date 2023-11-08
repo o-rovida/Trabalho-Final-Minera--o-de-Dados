@@ -1,8 +1,7 @@
-% https://www.kaggle.com/datasets/andrewmvd/divorce-prediction
+% https://www.kaggle.com/datasets/csafrit2/predicting-divorce/data
 
 % O conjunto de dados é feito com base em questionário
-% Todas as respostas foram coletadas em escala Likert (0=Nunca, 1=Raramente, 2=Média, 3=Frequentemente, 4=Sempre)
-% O questionário foi aplicado utilizando a Escala de Preditores de Divórcio (DPS) baseada no método Gottman para terapia de casais.
+% As perguntas são classificadas em uma escala de 0 a 4, sendo 0 a mais baixa e 4 a mais alta. A última categoria indica se o casal se divorciou.
 
 % Perguntas
 % 1. Se um de nós pedir desculpas quando nossa discussão piorar, a discussão termina.
