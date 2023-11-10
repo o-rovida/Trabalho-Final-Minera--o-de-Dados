@@ -1,18 +1,4 @@
-#importações
-import pandas as pd
-
 import numpy as np
-from math import ceil
-
-# bibliotecas para visualização
-import matplotlib.pyplot as plt
-
-#modelos de classificação
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.neighbors import KNeighborsClassifier
-
-#definição de funções
 
 #função que calcula a entropia do conjunto de dados
 def calculate_entropy(dataset, target, decimal_places=4): #dataset: conjunto de dados em formato DataFrame, target: atributo alvo, decimal_places: casas decimais
