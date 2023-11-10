@@ -1,0 +1,110 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     divorce
+Instances:    170
+Attributes:   55
+              question_1
+              question_2
+              question_3
+              question_4
+              question_5
+              question_6
+              question_7
+              question_8
+              question_9
+              question_10
+              question_11
+              question_12
+              question_13
+              question_14
+              question_15
+              question_16
+              question_17
+              question_18
+              question_19
+              question_20
+              question_21
+              question_22
+              question_23
+              question_24
+              question_25
+              question_26
+              question_27
+              question_28
+              question_29
+              question_30
+              question_31
+              question_32
+              question_33
+              question_34
+              question_35
+              question_36
+              question_37
+              question_38
+              question_39
+              question_40
+              question_41
+              question_42
+              question_43
+              question_44
+              question_45
+              question_46
+              question_47
+              question_48
+              question_49
+              question_50
+              question_51
+              question_52
+              question_53
+              question_54
+              divorced
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+question_40 = 0: 0 (72.0/1.0)
+question_40 = 1: 0 (13.0/1.0)
+question_40 = 2
+|   question_6 = 0: 0 (3.0)
+|   question_6 = 1: 0 (0.0)
+|   question_6 = 2: 1 (2.0)
+|   question_6 = 3: 0 (0.0)
+|   question_6 = 4: 1 (1.0)
+question_40 = 3: 1 (23.0)
+question_40 = 4: 1 (56.0)
+
+Number of Leaves  : 	9
+
+Size of the tree : 	11
+
+
+Time taken to build model: 0.02 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         162               95.2941 %
+Incorrectly Classified Instances         8                4.7059 %
+Kappa statistic                          0.9059
+Mean absolute error                      0.0587
+Root mean squared error                  0.2199
+Relative absolute error                 11.7458 %
+Root relative squared error             43.9675 %
+Total Number of Instances              170     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,942    0,036    0,964      0,942    0,953      0,906    0,948     0,926     0
+                 0,964    0,058    0,942      0,964    0,953      0,906    0,948     0,927     1
+Weighted Avg.    0,953    0,047    0,953      0,953    0,953      0,906    0,948     0,927     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 81  5 |  a = 0
+  3 81 |  b = 1
